@@ -54,38 +54,23 @@ header h1{
 .img1{
 	background-image: url("img3.jpg");
 }
-.img1:hover{
-	background-image: url("img4.jpg");
-}
+
 .img2{	
 	background-image: url("img5.jpg");
 }
-.img2:hover{
-	background-image: url("img6.jpg");
-}
+
 .img3{
 	background-image: url("img.jpg");
 	background-size: cover;
 }
-.img3:hover{
-	background-image: url("img2.jpg");
-}
 .img4{
-	background-image: url("img8.jpg");
-}
-.img4:hover{
 	background-image: url("img8.jpg");
 }
 .img5{
 	background-image: url("img9.jpg");
 }
-.img5:hover{
-	background-image: url("img9.jpg");
-}
+
 .img6{
-	background-image: url("img7.jpg");
-}
-.img6:hover{
 	background-image: url("img7.jpg");
 }
 @media(max-width: 670px){
@@ -197,5 +182,23 @@ header h1{
 	}
 	.img:hover{
 		box-shadow: 0px 0px 4px rgba(0,0,0,.1);
+	}
+	.img1:hover{
+		background-image: url("img4.jpg");
+	}
+	.img2:hover{
+		background-image: url("img6.jpg");
+	}
+	.img3:hover{
+		background-image: url("img2.jpg");
+	}
+	.img4:hover{
+		background-image: url("img8.jpg");
+	}
+	.img5:hover{
+		background-image: url("img9.jpg");
+	}
+	.img6:hover{
+		background-image: url("img7.jpg");
 	}
 }
